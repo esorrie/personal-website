@@ -1,10 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+import Intro from './Intro/Intro.jsx'
+import NavBar from './Navbar/NavBar.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <NavBar />
+    <Intro />
+    {/* <About /> */}
+    {/* <Portfolio /> */}
+    {/* <Contact /> */}
   </React.StrictMode>,
 )
