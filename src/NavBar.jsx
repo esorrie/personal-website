@@ -7,7 +7,7 @@ const Navbar = () => {
             <div className="menu">
                 <div className="navtitle text-custom_blue text-2xl font-semibold">Edward Sorrie</div>
             </div>
-            <div className="menu navitem">
+            <div className="menu navitem text-white">
                 <div className="navitem font-base font-medium hover:font-bold hover:text-custom_blue"> Home </div>
                 <div className="navitem font-base font-medium hover:font-bold hover:text-custom_blue"> About </div>
                 <div className="navitem font-base font-medium hover:font-bold hover:text-custom_blue"> Portfolio </div>
