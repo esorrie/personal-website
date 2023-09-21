@@ -1,0 +1,25 @@
+
+.nav {
+    background:
+    linear-gradient(180deg, rgba(74, 74, 74, 0.2) 60%, rgba(0, 0, 0, 0) 100%);
+    
+    padding-left: 136px;
+    padding-right: 155px;
+    width: full;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap; /* stops entities from being off the page */
+    align-items: center; /* formats to the center of the container height */
+    margin-top: 31px;
+    margin-bottom: 31px;
+}
+
+.navitem {
+    margin-right: 45px;
+    text-align: right;
+}

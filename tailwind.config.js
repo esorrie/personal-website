@@ -5,7 +5,17 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'custom_blue': '#2272FF',
+      },
+      gridTemplateColumns: {
+        
+      },
+      spacing: {
+        
+      },
+    },
   },
   plugins: [],
 }
