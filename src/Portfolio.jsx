@@ -21,21 +21,48 @@ const Portfolio = () => {
                 </div>
                 <a href="https://github.com/esorrie" className="gitLink uppercase"> My GitHub </a>
             </div>
-            <div className="flex ">
-                <div className="sectionHolder mr-56"> 
-                    <div className="cardText uppercase mt-2"> frontend </div>
+            <div class="flex items-center ">
+                <div class="grid gap-14 grid-cols-4 ">
+                    <div class="group relative cursor-pointer justify-center">
+                        <div className='rounded-3xl'>
+                            <img className="sectionHolder object-cover transition-transform duration-500 group-hover:rotate-3" src="https://res.cloudinary.com/practicaldev/image/fetch/s--HGPHjjIL--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/1o81e4cmk8vbjna0bf7s.jpg" alt="" />
+                        </div>
+                        <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                            <h1 class="cardText uppercase"> frontend </h1>
+                            <p class="mb-3 text-lg text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.</p>
+                        </div>
+                    </div>
+                    <div class="group relative cursor-pointer justify-center">
+                        <div className='rounded-3xl'>
+                            <img className="sectionHolder object-cover transition-transform duration-500 group-hover:rotate-3" src="https://blog.tubikstudio.com/wp-content/uploads/2016/11/back-end-development-1.jpg" alt="" />
+                        </div>
+                        <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                            <h1 class="cardText uppercase"> backend </h1>
+                            <p class="mb-3 text-lg text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.</p>
+                        </div>
+                    </div>
+                    <div class="group relative cursor-pointer justify-center">
+                        <div className='rounded-3xl'>
+                            <img className="sectionHolder object-cover transition-transform duration-500 group-hover:rotate-3" src="https://assets.aboutamazon.com/dims4/default/6e85f6a/2147483647/strip/true/crop/2000x1126+0+0/resize/1320x743!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F98%2F39%2Fe7ca5d5e477bac7a49fb49110220%2Fpredictions-hero-01.jpg" alt="" />
+                        </div>
+                        <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                            <h1 class="cardText uppercase"> DevOps </h1>
+                            <p class="mb-3 text-lg text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.</p>
+                        </div>
+                    </div>
+                    <div class="group relative cursor-pointer justify-center">
+                        <div className='rounded-3xl'>
+                            <img className="sectionHolder object-cover transition-transform duration-500 group-hover:rotate-3" src="https://cdn.dribbble.com/userupload/9353283/file/original-c04d3c27600407f35d41ab8d9330eff7.jpg?resize=752x" alt="" />
+                        </div>
+                        <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                            <h1 class="cardText uppercase mb-9"> UI/UX Design </h1>
+                            <p class="mb-3 text-lg text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.</p>
+                        </div>
+                    </div>
                 </div>
-                <div className="sectionHolder mr-56 origin-top "> 
-                    <div className="cardText uppercase mt-2"> backend </div>
-                </div>
-                <div className="sectionHolder mr-56 origin-top "> 
-                    <div className="cardText uppercase mt-2"> UI/UX design </div>
-                </div>
-                <div className="sectionHolder mr-56 origin-top "> 
-                    <div className="cardText uppercase mt-2"> DevOps </div>
                 </div>
             </div>
-        </div>
+        
     );
 }; 
 export default Portfolio;
