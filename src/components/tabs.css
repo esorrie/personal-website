@@ -13,7 +13,7 @@
 
 .card4{
     margin-top: 151px;
-    margin-left: -333px;
+
 }
 .title {
     color: #2272FF;
@@ -27,7 +27,7 @@
 
 .card5 {
     margin-top: 15px;
-    margin-left: -333px;
+
     width: 552px;
 }
 .body {
@@ -41,7 +41,7 @@
 .bloc-tabs {
     display:flex;
     margin-top: 20px;
-    margin-left: -333px;
+
 }
 
 .tabs {
@@ -63,7 +63,7 @@
 
 .content-tabs {
     margin-top: 20px;
-    margin-left: -333px;
+
 }
 
 .content {

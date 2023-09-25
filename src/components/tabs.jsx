@@ -12,8 +12,8 @@ function Tabs()  {
 
     return (
         <>        
-            <div className="grid grid-cols-2">
-                <div className="card3">
+            <div className="flex">
+                <div className="card3 w-372">
                     <div className="cardHolder"></div>
                 </div>
                 <div className="">
