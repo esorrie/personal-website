@@ -21,6 +21,20 @@ const Portfolio = () => {
                 </div>
                 <a href="https://github.com/esorrie" className="gitLink uppercase"> My GitHub </a>
             </div>
+            <div className="flex ">
+                <div className="sectionHolder mr-56"> 
+                    <div className="cardText uppercase mt-2"> frontend </div>
+                </div>
+                <div className="sectionHolder mr-56 origin-top "> 
+                    <div className="cardText uppercase mt-2"> backend </div>
+                </div>
+                <div className="sectionHolder mr-56 origin-top "> 
+                    <div className="cardText uppercase mt-2"> UI/UX design </div>
+                </div>
+                <div className="sectionHolder mr-56 origin-top "> 
+                    <div className="cardText uppercase mt-2"> DevOps </div>
+                </div>
+            </div>
         </div>
     );
 }; 
