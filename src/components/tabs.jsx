@@ -27,16 +27,16 @@ function Tabs()  {
                     <div className="tabs" > cv </div>
                 </div>
 
-                <div className="content-tabs">
+                <div className="content-tabs w-552">
                     <div className={toggleState === 1 ? "content active-content" : "content" } >
                         <ul>
-                            HTML 
-                            CSS
-                            Tailwind CSS
-                            Node.js
-                            Docker
-                            PHP
-                            Laravel 
+                            HTML <br />
+                            CSS <br />
+                            Tailwind CSS<br />
+                            Node.js<br />
+                            Docker<br />
+                            PHP<br />
+                            Laravel<br /> 
                             MySQL
                         </ul>
                     </div>
