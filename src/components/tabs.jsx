@@ -21,10 +21,10 @@ function Tabs()  {
                     <div className="card5 body"> From designing elegant user interfaces using HTML, CSS, and JavaScript, to creating robust server systems with Node.js and databases like MySQL, I possess the skills to bring ambitious projects to life. My curiosity drives me to stay up to date with the latest industry trends and integrate cutting-edge tools and frameworks into my work.</div>  
                 
                 <div className="bloc-tabs">
-                    <div className={toggleState === 1 ? "tabs active-tabs" : "tabs" } onClick={() => toggleTab(1)} > skills </div>
-                    <div className={toggleState === 2 ? "tabs active-tabs" : "tabs" } onClick={() => toggleTab(2)} > education </div>
-                    <div className={toggleState === 3 ? "tabs active-tabs" : "tabs" } onClick={() => toggleTab(3)} > experience </div>
-                    <div className="tabs" > cv </div>
+                    <div className={toggleState === 1 ? "tabs cursor-default active-tabs" : "tabs cursor-default" } onClick={() => toggleTab(1)} > skills </div>
+                    <div className={toggleState === 2 ? "tabs cursor-default active-tabs" : "tabs cursor-default" } onClick={() => toggleTab(2)} > education </div>
+                    <div className={toggleState === 3 ? "tabs cursor-default active-tabs" : "tabs cursor-default" } onClick={() => toggleTab(3)} > experience </div>
+                    <a className="tabs cursor-pointer" > cv </a>
                 </div>
 
                 <div className="content-tabs w-552">
