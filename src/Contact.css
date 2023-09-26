@@ -1,0 +1,46 @@
+.title {
+    color: #2272FF;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 202px;
+    margin-left: 136px;
+}
+
+.mailIcon {
+    width: 34px;
+    height: 24px;
+    margin-top: 61px;
+    margin-left: 136px;
+}
+.mail {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 63px;
+    margin-left: 42px;
+}
+
+.profileIcon {
+    margin-top: 27px;
+    margin-left: 136px;
+    width: 35px;
+    height: 35px;
+}
+
+.profile{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 34px;
+    margin-left: 41px;
+}
