@@ -19,7 +19,7 @@ const Portfolio = () => {
                         </defs>
                     </svg>
                 </div>
-                <a href="https://github.com/esorrie" className="gitLink uppercase"> My GitHub </a>
+                <a href="https://github.com/esorrie" target="_blank" className="gitLink uppercase"> My GitHub </a>
             </div>
             <div class="flex items-center ">
                 <div class="grid gap-14 grid-cols-4 ">
