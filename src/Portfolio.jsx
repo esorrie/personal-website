@@ -29,7 +29,7 @@ const Portfolio = () => {
                         </div>
                         <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
                             <h1 class="cardText uppercase"> frontend </h1>
-                            <p class="mb-3 text-lg text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.</p>
+                            <p class="mb-3 text-lg text-white opacity-0 transition-opacity duration-500 group-hover:opacity-100"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.</p>
                         </div>
                     </div>
                     <div class="group relative cursor-pointer justify-center">
@@ -38,7 +38,7 @@ const Portfolio = () => {
                         </div>
                         <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
                             <h1 class="cardText uppercase"> backend </h1>
-                            <p class="mb-3 text-lg text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.</p>
+                            <p class="mb-3 text-lg text-white opacity-0 transition-opacity duration-500 group-hover:opacity-100"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.</p>
                         </div>
                     </div>
                     <div class="group relative cursor-pointer justify-center">
@@ -47,7 +47,7 @@ const Portfolio = () => {
                         </div>
                         <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
                             <h1 class="cardText uppercase"> DevOps </h1>
-                            <p class="mb-3 text-lg text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.</p>
+                            <p class="mb-3 text-lg text-white opacity-0 transition-opacity duration-500 group-hover:opacity-100"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.</p>
                         </div>
                     </div>
                     <div class="group relative cursor-pointer justify-center">
@@ -56,7 +56,7 @@ const Portfolio = () => {
                         </div>
                         <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
                             <h1 class="cardText uppercase mb-9"> UI/UX Design </h1>
-                            <p class="mb-3 text-lg text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.</p>
+                            <p class="mb-3 text-lg text-white opacity-0 transition-opacity duration-500 group-hover:opacity-100"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.</p>
                         </div>
                     </div>
                 </div>
