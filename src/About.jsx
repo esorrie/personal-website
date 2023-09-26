@@ -4,7 +4,9 @@ import Tabs from './components/tabs';
 const About = () => {
 
     return (
-        <Tabs/>
+        <a id="about_section">
+            <Tabs/>
+        </a>
     );
 };
 export default About;
