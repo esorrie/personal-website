@@ -30,16 +30,16 @@ function Tabs()  {
                 <div className="content-tabs w-552">
                     <div className={toggleState === 1 ? "content active-content" : "content" } >
                         <ul>
-                            HTML <br />
-                            CSS <br />
-                            Tailwind CSS<br />
-                            React.js<br />
-                            Node.js<br />
-                            Docker<br />
-                            PHP<br />
-                            Laravel<br /> 
-                            MySQL
-                            Figma<br /> 
+                            <div className=""> HTML </div>
+                            <div className=""> CSS </div> 
+                            <div className=""> Tailwind CSS </div> 
+                            <div className=""> React.js </div>
+                            <div className=""> Node.js </div>
+                            <div className=""> Docker </div>
+                            <div className=""> PHP </div>
+                            <div className=""> Laravel </div>
+                            <div className=""> MySQL </div>
+                            <div className=""> Figma </div>
                         </ul>
                     </div>
                     <div className={toggleState === 2 ? "content active-content" : "content" } >
