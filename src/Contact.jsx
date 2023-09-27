@@ -6,7 +6,7 @@ const Contact = () => {
     return (
         <a id="contact_section">
             <div className="">
-                <div className="contactTitle"> Contact Me </div>
+                <div className="contactTitle"> Get in touch </div>
                 <div className="flex">
                     <div className="mailIcon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="34" height="24" viewBox="0 0 34 24" fill="none">
