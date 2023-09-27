@@ -3,7 +3,7 @@ import './Intro.css'
 
 const Intro = () => {
     return (
-        <div className="ml-136 mt-280">
+        <div className="ml-136 mt-200">
             <div className="title">
               Full Stack Web Developer
             </div> 
