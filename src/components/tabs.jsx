@@ -33,23 +33,26 @@ function Tabs()  {
                             HTML <br />
                             CSS <br />
                             Tailwind CSS<br />
+                            React.js<br />
                             Node.js<br />
                             Docker<br />
                             PHP<br />
                             Laravel<br /> 
                             MySQL
+                            Figma<br /> 
                         </ul>
                     </div>
                     <div className={toggleState === 2 ? "content active-content" : "content" } >
+                        I am currently a third year student at Newcastle University studying a BEng Hons in Electronic and Computer Engineering achieving a 2:1 in my second year. <br/> <br/>
                         Studied at King Edwards VI high school for mmy GCSE's and A-levels; <br/>
+                        A-levels;
+                        I achieved a B in Business Studies and C in both Mathematics and Physics. <br/>
                         GCSE's; <br/>
                         I passed all 10 subjects achieving three 7's, two 6's, two 5's, three 4's, along with an optional 11th subject of Further Mathematics achieving a C. <br/>
-                        A-levels; <br/> 
-                        I achieved a B in Business Studies and C in both Mathematics and Physics. <br/> <br/>
-                        I am currently a third year student at Newcastle University studying a BEng Hons in Electronic and Computer Engineering achieving a 2:1 in my second year.
                     </div>
                     <div className={toggleState === 3 ? "content active-content" : "content" } >
-                        6 week internship at Woods&Walker
+                        6 week internship at Woods&Walker; <br/>
+                        During my internship I learned the basics of PHP, Laravel, Docker, MySQL and Tailwind CSS from Laracasts, Laravel 8 from scratch videos and then proceeded to build on the basics by developing my own website that was designed by the companies UI designer. I used a free football API to call league, team, player and manager data to fill the relative database tables. I was able to do this by creating a custom PHP artisan command that can be run in the terminal to update information (at the end I auto ran the command every minute as this was when my API calls were reset). My plan for this website is to host it on AWS using Elastic Container Services. Along with brief QA testing on a product that was nearing release. 
                     </div>
                 </div>
                 </div>
