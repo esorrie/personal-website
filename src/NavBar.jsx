@@ -9,9 +9,9 @@ const Navbar = () => {
             </div>
             {/* TODO = fix scroll on navbar links */}
             <div className="menu navitem text-white">
-                <a href="#about_section" className="navitem font-base font-medium cursor-default hover:text-custom_blue scroll-smooth"> About </a>
-                <a href="#portfolio_section" className="navitem font-base font-medium cursor-default hover:text-custom_blue scroll-smooth"> Portfolio </a>
-                <a href="#contact_section" className="font-base font-medium cursor-default hover:text-custom_blue scroll-smooth"> Contact Me </a>
+                <a href="#about_section" className="navitem font-base font-medium cursor-default hover:text-custom_blue html"> About </a>
+                <a href="#portfolio_section" className="navitem font-base font-medium cursor-default hover:text-custom_blue html"> Portfolio </a>
+                <a href="#contact_section" className="font-base font-medium cursor-default hover:text-custom_blue html"> Contact Me </a>
             </div>
         </nav>
     );

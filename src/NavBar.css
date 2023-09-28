@@ -23,3 +23,7 @@
     margin-right: 45px;
     text-align: right;
 }
+
+.html {
+    scroll-behavior: smooth!important;
+    }
