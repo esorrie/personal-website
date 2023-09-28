@@ -11,9 +11,7 @@
 }
 
 .mailIcon {
-    width: 34px;
-    height: 24px;
-    margin-top: 61px;
+    margin-top: 27px;
     margin-left: 136px;
 }
 .mail {
@@ -23,16 +21,14 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin-top: 63px;
-    margin-left: 42px;
+    margin-top: 34px;
+    margin-left: 41px;
 }
 
 .profileIcon {
     margin-top: 27px;
     margin-left: 136px;
     margin-bottom: 112px;
-    width: 35px;
-    height: 35px;
 }
 
 .profile{
@@ -44,4 +40,21 @@
     line-height: normal;
     margin-top: 34px;
     margin-left: 41px;
+}
+
+.gitImage {
+    flex-shrink: 0;
+    margin-top: 61px;
+    margin-left: 136px;
+}
+
+.gitLink { 
+    margin-left: 41px;
+    margin-top: 68px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }

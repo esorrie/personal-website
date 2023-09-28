@@ -12,23 +12,7 @@
     
 }
 
-.gitImage {
-    width: 48px;
-    height: 48px;
-    flex-shrink: 0;
-    margin-top: 30px;
-}
 
-.gitLink { 
-    margin-left: 56px;
-    margin-top: 42px;
-    color: #FFF;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
 
 .sectionHolder {
     margin-top: 32px;
