@@ -23,6 +23,23 @@ const Portfolio = () => {
                 <div className="mt-16 rounded-lg">
                     <img className="rounded-xl" src="https://i.ibb.co/fX1pPHV/Screenshot-2023-09-28-at-16-21-50.png" alt="Screenshot-2023-09-28-at-16-21-50" border="0" />
                 </div>
+                
+                <div className="mt-16 ml-136 rounded-lg border-black border-4">
+                    <img className="rounded-xl" src="https://i.ibb.co/1fpTPkJ/Screenshot-2023-09-28-at-18-10-37.png" alt="Screenshot-2023-09-28-at-18-10-37" border="0" />
+                </div>
+                <div className="ml-136 w-fit">
+                    <div className="mt-16 text-white text-3xl font-bold"> Personal website </div>
+                    <div className="mt-3 text-custom_blue font-semibold text-xl"> Overview </div>
+                    <div className="mt-3 text-l text-white w-96 ">A personal website used to show showcase my projects. </div>
+                    <div className="mt-3 text-custom_blue font-semibold text-xl"> Created Using </div>
+                    <div className="mt-3 text-l text-white w-96"> React.js, Tailwind CSS </div>
+                    <button className="mt-3 bg-custom_blue rounded-lg px-4 py-1 text-xs font-semibold text-white"> 
+                        <a href="https://github.com/esorrie/EdSCore" target="_blank" > View Code </a> 
+                    </button>
+                </div>
+                <div className="mt-16 rounded-lg">
+                    <img className="rounded-xl"  />
+                </div>
             </div>
         </a>
         
