@@ -2,6 +2,32 @@ import React from 'react';
 import './NavBar.css'
 
 const Navbar = () => {
+
+    const scrollToAbout = () => {
+        const contactSection = document.getElementById('about_section');
+        
+        if (contactSection) {
+            contactSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
+    const scrollToPortfolio = () => {
+        const contactSection = document.getElementById('portfolio_section');
+        
+        if (contactSection) {
+            contactSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+    
+    const scrollToContact = () => {
+        const contactSection = document.getElementById('contact_section');
+        
+        if (contactSection) {
+            contactSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
+
     return (
         <nav className="nav">
             <div className="menu">
@@ -9,9 +35,9 @@ const Navbar = () => {
             </div>
             {/* TODO = fix scroll on navbar links */}
             <div className="menu navitem text-white">
-                <a href="#about_section" className="navitem font-base font-medium cursor-default hover:text-custom_blue html"> About </a>
-                <a href="#portfolio_section" className="navitem font-base font-medium cursor-default hover:text-custom_blue html"> Portfolio </a>
-                <a href="#contact_section" className="font-base font-medium cursor-default hover:text-custom_blue html"> Contact Me </a>
+                <a href="#" className="navitem font-base font-medium cursor-default hover:text-custom_blue" onClick={scrollToAbout} > About </a>
+                <a href="#" className="navitem font-base font-medium cursor-default hover:text-custom_blue" onClick={scrollToPortfolio} > Portfolio </a>
+                <a href="#" className="font-base font-medium cursor-default hover:text-custom_blue" onClick={scrollToContact} > Contact Me </a>
             </div>
         </nav>
     );
