@@ -14,7 +14,7 @@ function Tabs()  {
         <>        
             <div className="flex">
                 <div className="card3 w-372">
-                    <div className="cardHolder"></div>
+                    <img src="" className="cardHolder"></img>
                 </div>
                 <div className="">
                     <div className="card4 title"> About Me </div>
