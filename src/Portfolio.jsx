@@ -34,7 +34,7 @@ const Portfolio = () => {
                     <div className="mt-3 text-custom_blue font-semibold text-xl"> Created Using </div>
                     <div className="mt-3 text-l text-white w-96"> React.js, Tailwind CSS </div>
                     <button className="mt-3 bg-custom_blue rounded-lg px-4 py-1 text-xs font-semibold text-white"> 
-                        <a href="https://github.com/esorrie/EdSCore" target="_blank" > View Code </a> 
+                        <a href="https://github.com/esorrie/personal-website" target="_blank" > View Code </a> 
                     </button>
                 </div>
                 <div className="mt-16 rounded-lg">
