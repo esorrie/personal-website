@@ -9,7 +9,7 @@ const Portfolio = () => {
                 <div className="title "> portfolio </div>
                 <div className="text-white font-semibold text-2xl font"> Frontend + Backend Web Development and API Integration </div>
             </div>
-            <div className="grid grid-cols-2">
+            <div className="grid grid-cols-2 w-fit">
                 <div className="ml-136 ">
                     <div className="mt-16 text-white text-3xl font-bold"> <span className="text-orange-600"> Eds</span>Score </div>
                     <div className="mt-3 text-custom_blue font-semibold text-xl"> Overview </div>
@@ -20,7 +20,7 @@ const Portfolio = () => {
                         <a href="https://github.com/esorrie/EdSCore" target="_blank" > View Code </a> 
                     </button>
                 </div>
-                <div className="mt-16 mr-136 rounded-lg">
+                <div className="mt-16 rounded-lg">
                     <img className="rounded-xl" src="https://i.ibb.co/fX1pPHV/Screenshot-2023-09-28-at-16-21-50.png" alt="Screenshot-2023-09-28-at-16-21-50" border="0" />
                 </div>
             </div>
