@@ -11,7 +11,7 @@ const Intro = () => {
               Welcome to my corner of the internet!
             </div>
             <div className="card2 mt-5">
-              I'm thrilled to introduce myself as a recent Computer Engineering graduate from Newcastle with an interest in the realm of full stack web development. I have a strong foundation in both front-end and back-end technologies. With a passion to craft complete and immersive online experiences from concept to deployment.
+              I'm thrilled to introduce myself as a current third year student from Newcastle with an interest in the realm of full stack web development. I have a strong foundation in both front-end and back-end technologies. With a passion to craft complete and immersive online experiences from concept to deployment.
             </div>
         </div>
     );
