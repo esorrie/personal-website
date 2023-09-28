@@ -17,11 +17,11 @@ const Portfolio = () => {
                     <div className="mt-3 text-custom_blue font-semibold text-xl"> Created Using </div>
                     <div className="mt-3 text-l text-white w-96"> Laravel, Tailwind CSS, football-data API </div>
                     <button className="mt-3 bg-custom_blue rounded-lg px-4 py-1 text-xs font-semibold text-white"> 
-                        <a href="https://github.com/esorrie/EdSCore" > View Code </a> 
+                        <a href="https://github.com/esorrie/EdSCore" target="_blank" > View Code </a> 
                     </button>
                 </div>
                 <div className="mt-16 mr-136 rounded-lg">
-                    <img className="rounded-xl" src="https://i.ibb.co/fX1pPHV/Screenshot-2023-09-28-at-16-21-50.png" target="_blank" alt="Screenshot-2023-09-28-at-16-21-50" border="0" />
+                    <img className="rounded-xl" src="https://i.ibb.co/fX1pPHV/Screenshot-2023-09-28-at-16-21-50.png" alt="Screenshot-2023-09-28-at-16-21-50" border="0" />
                 </div>
             </div>
         </a>
