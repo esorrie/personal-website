@@ -21,7 +21,7 @@ const Portfolio = () => {
                     </button>
                 </div>
                 <div className="mt-16 mr-136 rounded-lg">
-                    <img className="rounded-xl" src="https://i.ibb.co/fX1pPHV/Screenshot-2023-09-28-at-16-21-50.png" alt="Screenshot-2023-09-28-at-16-21-50" border="0" />
+                    <img className="rounded-xl" src="https://i.ibb.co/fX1pPHV/Screenshot-2023-09-28-at-16-21-50.png" target="_blank" alt="Screenshot-2023-09-28-at-16-21-50" border="0" />
                 </div>
             </div>
         </a>
