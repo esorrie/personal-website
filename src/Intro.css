@@ -5,6 +5,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    
 }
 
 .card1 {
@@ -22,5 +23,5 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    width: 636px;
+    width: fit;
 }
