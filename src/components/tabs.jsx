@@ -12,15 +12,12 @@ function Tabs()  {
 
     return (
         <>        
-            <div className="flex">
-                <div className="card3 w-372">
-                    <img src="" className="cardHolder"></img>
-                </div>
-                <div className="">
+            <div className="">
+                <div className="text-center">
                     <div className="card4 title"> About Me </div>
-                    <div className="card5 body"> From designing elegant user interfaces using HTML, CSS, and JavaScript, to creating robust server systems with Node.js and databases like MySQL, I possess the skills to bring ambitious projects to life. My curiosity drives me to stay up to date with the latest industry trends and integrate cutting-edge tools and frameworks into my work.</div>  
-                
-                <div className="bloc-tabs">
+                    <div className="mx-272 card5 body"> From designing elegant user interfaces using HTML, CSS, and JavaScript, to creating robust server systems with Node.js and databases like MySQL, I possess the skills to bring ambitious projects to life. My curiosity drives me to stay up to date with the latest industry trends and integrate cutting-edge tools and frameworks into my work.</div>  
+                </div>
+                <div className="bloc-tabs mx-443 ">
                     <div className={toggleState === 1 ? "tabs cursor-default active-tabs" : "tabs cursor-default" } onClick={() => toggleTab(1)} > skills </div>
                     <div className={toggleState === 2 ? "tabs cursor-default active-tabs" : "tabs cursor-default" } onClick={() => toggleTab(2)} > education </div>
                     <div className={toggleState === 3 ? "tabs cursor-default active-tabs" : "tabs cursor-default" } onClick={() => toggleTab(3)} > experience </div>
@@ -28,7 +25,7 @@ function Tabs()  {
                 </div>
 
                 <div className="content-tabs w-552">
-                    <div className={toggleState === 1 ? "content active-content" : "content" } >
+                    <div className={toggleState === 1 ? "content active-content ml-443" : "content" } >
                         <ul>
                             <div className=""> HTML </div>
                             <div className=""> CSS </div> 
@@ -42,7 +39,7 @@ function Tabs()  {
                             <div className=""> Figma </div>
                         </ul>
                     </div>
-                    <div className={toggleState === 2 ? "content active-content" : "content" } >
+                    <div className={toggleState === 2 ? "content active-content text-center ml-443 w-552" : "content" } >
                         I am currently a third year student at Newcastle University studying a BEng Hons in Electronic and Computer Engineering achieving a 2:1 in my second year. <br/> <br/>
                         Studied at King Edwards VI high school for mmy GCSE's and A-levels; <br/>
                         A-levels;
@@ -50,11 +47,10 @@ function Tabs()  {
                         GCSE's; <br/>
                         I passed all 10 subjects achieving three 7's, two 6's, two 5's, three 4's, along with an optional 11th subject of Further Mathematics achieving a C. <br/>
                     </div>
-                    <div className={toggleState === 3 ? "content active-content" : "content" } >
+                    <div className={toggleState === 3 ? "content active-content text-center ml-443 w-552" : "content" } >
                         6 week internship at Woods&Walker; <br/>
                         During my internship I learned the basics of PHP, Laravel, Docker, MySQL and Tailwind CSS from Laracasts, Laravel 8 from scratch videos and then proceeded to build on the basics by developing my own website that was designed by the companies UI designer. I used a free football API to call league, team, player and manager data to fill the relative database tables. I was able to do this by creating a custom PHP artisan command that can be run in the terminal to update information (at the end I auto ran the command every minute as this was when my API calls were reset). My plan for this website is to host it on AWS using Elastic Container Services. Along with brief QA testing on a product that was nearing release. 
                     </div>
-                </div>
                 </div>
             </div>
         </>
