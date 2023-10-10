@@ -14,7 +14,6 @@
 
 .card5 {
     margin-top: 15px;
-    height: 100px;
     flex-shrink: 0;
 }
 .body {
@@ -28,17 +27,27 @@
 .bloc-tabs {
     display:flex;
     margin-top: 10px;
+    flex-wrap: wrap; 
     
 }
 
 .tabs {
-    margin-right: 75px;
+    margin-right: 73px;
     text-transform: uppercase;
     color: #FFF;
     font-family: Inter;
     font-size: 20px;
     font-weight: 600;
 }
+
+.CVtabs {
+    text-transform: uppercase;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+}
+
 .active-tabs {
     margin-right: 75px;
     text-transform: uppercase;
