@@ -5,12 +5,12 @@ const Portfolio = () => {
 
     return (
         <a id="portfolio_section">
-            <div className="ml-136 mt-270">
+            <div className="mx-9.4% mt-270">
                 <div className="title "> portfolio </div>
                 <div className="text-white font-semibold text-2xl font"> Frontend + Backend Web Development and API Integration </div>
             </div>
-            <div className="grid grid-cols-2 w-fit">
-                <div className="ml-136 ">
+            <div className="flex flex-wrap">
+                <div className="ml-9.4%">
                     <div className="mt-16 text-white text-3xl font-bold"> <span className="text-orange-600"> Eds</span>Score </div>
                     <div className="mt-3 text-custom_blue font-semibold text-xl"> Overview </div>
                     <div className="mt-3 text-l text-white w-96 ">A small website that  pulls football data from a free football API for multiple leagues with live updates of scores and match data. </div>
@@ -20,14 +20,15 @@ const Portfolio = () => {
                         <a href="https://github.com/esorrie/EdSCore" target="_blank" > View Code </a> 
                     </button>
                 </div>
-                <div className="mt-16 rounded-lg">
+                <div className="mt-16 ml-9.4% mr-9.4% w-fit rounded-lg">
                     <img className="rounded-xl" src="https://i.ibb.co/fX1pPHV/Screenshot-2023-09-28-at-16-21-50.png" alt="Screenshot-2023-09-28-at-16-21-50" border="0" />
                 </div>
-                
-                <div className="mt-16 ml-136 rounded-lg border-black border-4">
+            </div>
+            <div className="w-min-min flex flex-wrap">
+                <div className="mt-16 ml-9.4% rounded-lg border-black border-4">
                     <img className="rounded-xl" src="https://i.ibb.co/1fpTPkJ/Screenshot-2023-09-28-at-18-10-37.png" alt="Screenshot-2023-09-28-at-18-10-37" border="0" />
                 </div>
-                <div className="ml-136 w-fit">
+                <div className="ml-9.4%">
                     <div className="mt-16 text-white text-3xl font-bold"> Personal website </div>
                     <div className="mt-3 text-custom_blue font-semibold text-xl"> Overview </div>
                     <div className="mt-3 text-l text-white w-96 ">A personal website used to show showcase my projects. </div>
@@ -37,10 +38,11 @@ const Portfolio = () => {
                         <a href="https://github.com/esorrie/personal-website" target="_blank" >View Code </a> 
                     </button>
                 </div>
+            </div>
+
                 <div className="mt-16 rounded-lg">
                     <img className="rounded-xl"  />
                 </div>
-            </div>
         </a>
         
     );
