@@ -25,7 +25,7 @@ function Tabs()  {
                     <a href="https://1drv.ms/w/s!AsrSQj_iC3W5g1blTLW0n05iwYRl?e=k9ltRL" target="_blank" className="CVtabs cursor-pointer" > cv </a>
                 </div>
 
-                <div className="content-tabs mx-30%">
+                <div className="content-tabs mx-22.5% lg:mx-30%">
                     <div className={toggleState === 1 ? "content active-content" : "content" } >
                         <ul>
                             <div className=""> HTML </div>
