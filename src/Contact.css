@@ -7,12 +7,12 @@
     line-height: normal;
     text-transform: uppercase;
     margin-top: 202px;
-    margin-left: 136px;
+    margin-left: 9.4%;
 }
 
 .mailIcon {
     margin-top: 27px;
-    margin-left: 136px;
+    margin-left: 9.4%;
 }
 .mail {
     color: #FFF;
@@ -27,7 +27,7 @@
 
 .profileIcon {
     margin-top: 27px;
-    margin-left: 136px;
+    margin-left: 9.4%;
     margin-bottom: 112px;
 }
 
@@ -45,7 +45,7 @@
 .gitImage {
     flex-shrink: 0;
     margin-top: 61px;
-    margin-left: 136px;
+    margin-left: 9.4%;
 }
 
 .gitLink { 
