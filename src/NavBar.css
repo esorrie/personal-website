@@ -2,9 +2,8 @@
 .nav {
     background:
     linear-gradient(180deg, rgba(74, 74, 74, 0.2) 60%, rgba(0, 0, 0, 0) 100%);
-    
-    padding-left: 136px;
-    padding-right: 155px;
+    padding-left: 9.4%;
+    padding-right: 10.8%;
     width: full;
     top: 0;
     display: flex;
