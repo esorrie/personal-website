@@ -18,7 +18,7 @@ function Tabs()  {
                     <div className="px-18.9% card5 body"> From designing elegant user interfaces using HTML, CSS, and JavaScript, to creating robust server systems with Node.js and databases like MySQL, I possess the skills to bring ambitious projects to life. My curiosity drives me to stay up to date with the latest industry trends and integrate cutting-edge tools and frameworks into my work.</div>  
                 </div>
             </div>
-                <div className="bloc-tabs mx-22.5% lg:mx-30% ">
+                <div className="bloc-tabs flex-wrap mx-22.5% lg:mx-30% ">
                     <div className={toggleState === 1 ? "tabs cursor-default active-tabs" : "tabs cursor-default" } onClick={() => toggleTab(1)} > skills </div>
                     <div className={toggleState === 2 ? "tabs cursor-default active-tabs" : "tabs cursor-default" } onClick={() => toggleTab(2)} > education </div>
                     <div className={toggleState === 3 ? "tabs cursor-default active-tabs" : "tabs cursor-default" } onClick={() => toggleTab(3)} > experience </div>
