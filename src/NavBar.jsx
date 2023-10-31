@@ -1,15 +1,25 @@
 import React from 'react'
 import './NavBar.css'
 
-
-
 const Navbar = () => {
+
+    const expand = () => {
+        const dropdown = document.querySelector(".dropdown");
+        const navmenu = document.querySelector(".navmenu");
+
+        dropdown.addEventListener("click", () => {
+            console.log("Dropdown clicked"); 
+            dropdown.classList.toggle("active");
+            navmenu.classList.toggle("active");
+        })
+    };
 
     const scrollToAbout = () => {
         const contactSection = document.getElementById('about_section');
         
         if (contactSection) {
             contactSection.scrollIntoView({ behavior: 'smooth' });
+            setIsActive(false);
         }
     };
 
@@ -18,6 +28,7 @@ const Navbar = () => {
         
         if (contactSection) {
             contactSection.scrollIntoView({ behavior: 'smooth' });
+            setIsActive(false);
         }
     };
     
@@ -26,6 +37,7 @@ const Navbar = () => {
         
         if (contactSection) {
             contactSection.scrollIntoView({ behavior: 'smooth' });
+            setIsActive(false);
         }
     };
 
@@ -39,12 +51,12 @@ const Navbar = () => {
             <div className="navmenu text-white">
                 <a href="#" className="navitem font-base font-medium cursor-default hover:text-custom_blue" onClick={scrollToAbout} > About </a>
                 <a href="#" className="navitem font-base font-medium cursor-default hover:text-custom_blue" onClick={scrollToPortfolio} > Portfolio </a>
-                <a href="#" className="font-base font-medium cursor-default hover:text-custom_blue" onClick={scrollToContact} > Contact Me </a>
+                <a href="#" className="navitem font-base font-medium cursor-default hover:text-custom_blue" onClick={scrollToContact} > Contact Me </a>
             </div>
-            <div className="dropdown" >
-                <span className='bar'> </span>
-                <span className='bar'> </span>
-                <span className='bar'> </span>
+            <div className="dropdown" onClick={expand}>
+                <span className='bar'></span>
+                <span className='bar'></span>
+                <span className='bar'></span>
             </div>
         </nav>
     );

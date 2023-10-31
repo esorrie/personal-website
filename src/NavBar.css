@@ -41,7 +41,6 @@
     width: 25px;
     height: 3px;
     margin: 5px auto;
-    -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
     background-color: white;
 }
@@ -58,21 +57,22 @@
         transform: translateY(8px) rotate(45deg);
     }
     .dropdown.active .bar:nth-child(3){
-        transform: translateY(-8px) rotate(45deg);
+        transform: translateY(-8px) rotate(-45deg);
     }
 
     .navmenu {
         display: none;
-        top: 62px;
+        top: 70px;
         gap: 0;
         flex-direction: column; 
         text-align: center; 
         width: 100%; 
-        transition: 0.3s;
+        transition: 0.7s;
     }
 
     .navitem {
-        margin: 16px 0px;
+        margin: 4px 0px 0px 0px;
+        text-align: center;
         cursor: pointer;
     }
 
