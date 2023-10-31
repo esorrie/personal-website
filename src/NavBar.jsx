@@ -19,7 +19,6 @@ const Navbar = () => {
         
         if (contactSection) {
             contactSection.scrollIntoView({ behavior: 'smooth' });
-            setIsActive(false);
         }
     };
 
@@ -28,7 +27,6 @@ const Navbar = () => {
         
         if (contactSection) {
             contactSection.scrollIntoView({ behavior: 'smooth' });
-            setIsActive(false);
         }
     };
     
@@ -37,7 +35,6 @@ const Navbar = () => {
         
         if (contactSection) {
             contactSection.scrollIntoView({ behavior: 'smooth' });
-            setIsActive(false);
         }
     };
 
