@@ -1,5 +1,7 @@
-import React from 'react';
+import React from 'react'
 import './NavBar.css'
+
+
 
 const Navbar = () => {
 
@@ -34,10 +36,15 @@ const Navbar = () => {
                 <div className="navtitle text-custom_blue text-2xl font-semibold">Edward Sorrie</div>
             </div>
             {/* TODO = fix scroll on navbar links */}
-            <div className="menu navitem text-white">
+            <div className="navmenu text-white">
                 <a href="#" className="navitem font-base font-medium cursor-default hover:text-custom_blue" onClick={scrollToAbout} > About </a>
                 <a href="#" className="navitem font-base font-medium cursor-default hover:text-custom_blue" onClick={scrollToPortfolio} > Portfolio </a>
                 <a href="#" className="font-base font-medium cursor-default hover:text-custom_blue" onClick={scrollToContact} > Contact Me </a>
+            </div>
+            <div className="dropdown" >
+                <span className='bar'> </span>
+                <span className='bar'> </span>
+                <span className='bar'> </span>
             </div>
         </nav>
     );
