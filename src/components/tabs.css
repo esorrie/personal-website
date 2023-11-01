@@ -90,7 +90,7 @@
     background-color: white;
 }
 
-@media(max-width:1000px){
+@media(max-width:1040px){
 
     .dropdown2 {
         display:block;
@@ -123,6 +123,7 @@
     .bloc-tabs.active{
         display: flex;
         margin-bottom: 10px;
+        margin-left: 0px;
     }
 
 }
