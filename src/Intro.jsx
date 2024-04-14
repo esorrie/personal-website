@@ -6,7 +6,7 @@ const Intro = () => {
       <>
         <div className="text-center mt-200 ">
             <div className="title ">
-              Full Stack Web Developer
+              Full Stack Developer
             </div> 
             <div className="card1 mt-4">
               Welcome to my corner of the internet!
