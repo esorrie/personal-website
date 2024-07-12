@@ -50,10 +50,13 @@ function Tabs()  {
                             <div className=""> React.js </div>
                             <div className=""> Node.js </div>
                             <div className=""> Docker </div>
-                            <div className=""> PHP </div>
+                            <div className=""> PHP </div> /* Used for my EdScore website */
                             <div className=""> Laravel </div>
                             <div className=""> MySQL </div>
                             <div className=""> Figma </div>
+                            <div className=""> Python </div> /* Used for my hybrid encryption project */
+                            <div className=""> Flask </div>
+                            <div className=""> MongoDB </div>
                         </ul>
                     </div>
                     <div className={toggleState === 2 ? "content active-content text-center" : "content" } >
