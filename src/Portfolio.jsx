@@ -20,7 +20,7 @@ const Portfolio = () => {
                         <a href="https://github.com/esorrie/EdSCore" target="_blank" > View Code </a> 
                     </button>
                 </div>
-                <div className="mt-16 ml-9.4% mr-9.4% w-fit rounded-lg">
+                <div className="mt-16 ml-9.4% mr-9.4% w-fit rounded-lg border-black border-4">
                     <img className="rounded-lg" src="https://i.ibb.co/fX1pPHV/Screenshot-2023-09-28-at-16-21-50.png" alt="Screenshot-2023-09-28-at-16-21-50" border="0" />
                 </div>
             </div>
