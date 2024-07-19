@@ -60,8 +60,8 @@ function Tabs()  {
                         </ul>
                     </div>
                     <div className={toggleState === 2 ? "content active-content text-center" : "content" } >
-                        I am currently a third year student at Newcastle University studying a BEng Hons in Electronic and Computer Engineering achieving a 2:1 in my second year. <br/> <br/>
-                        Studied at King Edwards VI high school for mmy GCSE's and A-levels; <br/>
+                        I am a recent graduate of Newcastle University having achieved a BEng Hons in Electronic and Computer Engineering achieving a 2:1. <br/> <br/>
+                        Studied at King Edwards VI high school for my GCSE's and A-levels; <br/>
                         A-levels;
                         I achieved a B in Business Studies and C in both Mathematics and Physics. <br/>
                         GCSE's; <br/>
