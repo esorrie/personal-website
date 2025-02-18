@@ -68,7 +68,7 @@ function Tabs()  {
                         I passed all 10 subjects achieving three 7's, two 6's, two 5's, three 4's, along with an optional 11th subject of Further Mathematics achieving a C. <br/>
                     </div>
                     <div className={toggleState === 3 ? "content active-content text-center" : "content" } >
-                        6 week internship at Woods&Walker; <br/>
+                        8 week internship at Woods&Walker; <br/>
                         During my internship I learned the basics of PHP, Laravel, Docker, MySQL and Tailwind CSS from Laracasts, Laravel 8 from scratch videos and then proceeded to build on the basics by developing my own website that was designed by the companies UI designer. I used a free football API to call league, team, player and manager data to fill the relative database tables. I was able to do this by creating a custom PHP artisan command that can be run in the terminal to update information (at the end I auto ran the command every minute as this was when my API calls were reset). My plan for this website is to host it on AWS using Elastic Container Services. Along with brief QA testing on a product that was nearing release. 
                     </div>
                 </div>
