@@ -33,7 +33,7 @@ function Tabs()  {
                     <div className={toggleState === 1 ? "tabs cursor-default active-tabs" : "tabs cursor-default" } onClick={() => toggleTab(1)} > skills </div>
                     <div className={toggleState === 2 ? "tabs cursor-default active-tabs" : "tabs cursor-default" } onClick={() => toggleTab(2)} > education </div>
                     <div className={toggleState === 3 ? "tabs cursor-default active-tabs" : "tabs cursor-default" } onClick={() => toggleTab(3)} > experience </div>
-                    <a href="https://1drv.ms/w/s!AsrSQj_iC3W5g1blTLW0n05iwYRl?e=k9ltRL" target="_blank" className="CVtabs cursor-pointer" > cv </a>
+                    <a href="https://www.overleaf.com/read/nnypfvcswpnq#654d56" target="_blank" className="CVtabs cursor-pointer" > cv </a>
                 </div>
             <div className="dropdown2" onClick={expand}>
                 <span className='bar'></span>
